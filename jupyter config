@@ -1,0 +1,44 @@
+1. pip2 install 下来的jupyter 不能用，好像和unicode 这些有关系。然后pip3 install了一个，就可以用了
+
+2. jupyter 运行新建python笔记的时候，需要权限，见https://blog.csdn.net/u014497625/article/details/76549220
+
+jupyter 基本操作
+https://blog.csdn.net/QimaoRyan/article/details/76022038
+
+2.Jupyter Notebook常用快捷键
+2.1模式切换
+
+    当前cell侧边为蓝色时，表示此时为命令模式，按Enter切换为编辑模式
+    当前cell侧边为绿色时，表示此时为编辑模式，按Esc切换为命令模式
+
+2.2命令模式快捷键
+
+    H：显示快捷键帮助
+    F：查找和替换
+    P：打开命令面板
+    Ctrl-Enter：运行当前cell
+    Shift-Enter：运行当前cell并跳转到下一cell
+    Alt-Enter：运行当前cell并在下方新建cell
+    Y：把当前cell内容转换为代码形式
+    M：把当前cell内容转换为markdown形式
+    1~6：把当前cell内容设置为标题1~6格式
+    Shift+上下键：按住Shift进行上下键操作可复选多个cell
+    A：在上方新建cell
+    B：在下方新建cell
+    X/C/Shift-V/V：剪切/复制/上方粘贴/下方粘贴
+    双击D：删除当前cell
+    Z：撤销删除
+    S：保存notebook
+    L：为当前cell的代码添加行编号
+    Shift-L：为所有cell的代码添加行编号
+    Shift-M：合并所选cell或合并当前cell和下方的cell
+    双击I：停止kernel
+    双击0：重启kernel
+
+2.3编辑模式快捷键
+
+    Tab：代码补全
+    Ctrl-A：全选
+    Ctrl-Z：撤销
+    Ctrl-Home：将光标移至cell最前端
+    Ctrl-End：将光标移至cell末端
